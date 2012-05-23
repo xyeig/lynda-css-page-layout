@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Box Sizing Preview</title>
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	font: 100% Georgia, "Times New Roman", Times, serif;
+	background: #3c6b92;
+}
+#wrapper {
+	width: 80%;
+	background: #fff;
+	margin: 0 auto;
+	overflow: auto;
+}
+#wrapper div {
+	background: #e1d8b9;
+}
+#one {
+	float: left;
+	padding: 50px;
+	width:45%;
+	border: 1px solid #333;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#two {
+	float: right;
+	padding: 50px;
+	width:45%;
+	border: 1px solid #333;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+  <div id="one"> I am the first element. </div>
+  <div id="two"> I am the second element. </div>
+</div>
+</body>
+</html>

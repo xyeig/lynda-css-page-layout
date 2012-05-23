@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+/*simple nth selector*/
+/*
+li:nth-child(2) {
+	color: red;
+};
+*/
+
+/*target even numbers*/
+/*
+li:nth-child(2n) {
+	color: red;
+};
+*/
+
+/*target odd numbers*/
+/*li:nth-child(2n+1) {
+	color: red;
+};*/
+
+/*start with the 5th item and target every 3rd item after that*/
+/*li:nth-child(3n+5) {
+	color: red;
+};*/
+
+/*select all even items until the eigth item*/
+/*li:nth-child(-2n+8) {
+	color: red;
+};
+*/
+
+/*select every third item offsetting the count by one from the end of the list*/
+/*li:nth-child(3n-1) {
+	color: red;
+};*/
+
+/*select all items except for the first three and last three*/
+/*li:nth-child(1n+4):nth-last-child(1n+4){
+	color: red;
+};*/
+
+/*select the first three and last three items*/
+li:nth-child(-1n+3), li:nth-last-child(-1n+3){
+	color: red;
+};
+</style>
+</head>
+
+<body>
+<ol>
+  <li>item one</li>
+  <li>item two</li>
+  <li>item three</li>
+  <li>item four</li>
+  <li>item five</li>
+  <li>item six</li>
+  <li>item seven</li>
+  <li>item eight</li>
+  <li>item nine</li>
+  <li>item ten</li>
+  <li>item eleven</li>
+  <li>item twelve</li>
+  <li>item thirteen</li>
+  <li>item fourteen</li>
+  <li>item fifteen</li>
+</ol>
+</body>
+</html>
